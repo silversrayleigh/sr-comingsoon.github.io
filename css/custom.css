@@ -1,0 +1,33 @@
+.bg{
+  background-image: url("../img/comingsoon.jpg");
+  color: white;
+  background-size: cover;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.edit-text-cs{
+  font-size: 50px;
+  font-family: "raleway",inherit;
+  padding-bottom: 20px;
+}
+.edit-text-p{
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "raleway",inherit;
+}
+.border{
+  border-top: solid;
+  margin: auto;
+  width: 50%;
+}
+body,html{
+  height: 100%;
+}
+.display-middle{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
